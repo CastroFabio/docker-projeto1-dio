@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Apache com Docker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🚀 Projeto Apache com Docker</h1>
+        <p>Uma aplicação web completa em container</p>
+      </header>
+
+      <main>
+        <section class="intro">
+          <h2>Bem-vindo ao projeto!</h2>
+          <p>
+            Esta é uma aplicação de exemplo executada em um container Apache com
+            Docker Compose.
+          </p>
+        </section>
+
+        <section class="features">
+          <h2>Funcionalidades</h2>
+          <div class="feature-grid">
+            <div class="feature">
+              <h3>📦 Containerizado</h3>
+              <p>Executando em container Docker para fácil implantação</p>
+            </div>
+            <div class="feature">
+              <h3>🎨 Estilizado</h3>
+              <p>Interface moderna com CSS responsivo</p>
+            </div>
+            <div class="feature">
+              <h3>⚡ Interativo</h3>
+              <p>Elementos dinâmicos com JavaScript</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="interactive">
+          <h2>Área Interativa</h2>
+          <div class="interactive-content">
+            <button id="changeColorBtn">Mudar Cor de Fundo</button>
+            <button id="addItemBtn">Adicionar Item</button>
+            <button id="resetBtn">Resetar</button>
+
+            <div class="item-list">
+              <h3>Itens Adicionados:</h3>
+              <ul id="itemList"></ul>
+            </div>
+
+            <div class="counter">
+              <h3>Contador de Cliques: <span id="clickCount">0</span></h3>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Projeto desenvolvido para o curso de Docker</p>
+        <p>📅 <span id="currentDate"></span></p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
